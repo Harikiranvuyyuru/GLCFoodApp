@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E08454F1AAF74B000F5D525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E08454E1AAF74B000F5D525 /* main.m */; };
+		1E0845521AAF74B000F5D525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845511AAF74B000F5D525 /* AppDelegate.m */; };
+		1E0845551AAF74B000F5D525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845541AAF74B000F5D525 /* ViewController.m */; };
+		1E0845581AAF74B000F5D525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0845561AAF74B000F5D525 /* Main.storyboard */; };
+		1E08455A1AAF74B000F5D525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0845591AAF74B000F5D525 /* Images.xcassets */; };
+		1E08455D1AAF74B000F5D525 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E08455B1AAF74B000F5D525 /* LaunchScreen.xib */; };
+		1E0845691AAF74B100F5D525 /* Food_ClassifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845681AAF74B100F5D525 /* Food_ClassifierTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E0845631AAF74B100F5D525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0845411AAF74B000F5D525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0845481AAF74B000F5D525;
+			remoteInfo = "Food Classifier";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E0845491AAF74B000F5D525 /* Food Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E08454D1AAF74B000F5D525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E08454E1AAF74B000F5D525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E0845501AAF74B000F5D525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1E0845511AAF74B000F5D525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1E0845531AAF74B000F5D525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1E0845541AAF74B000F5D525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1E0845571AAF74B000F5D525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E0845591AAF74B000F5D525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1E08455C1AAF74B000F5D525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1E0845621AAF74B100F5D525 /* Food ClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food ClassifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0845671AAF74B100F5D525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0845681AAF74B100F5D525 /* Food_ClassifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_ClassifierTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E0845461AAF74B000F5D525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E08455F1AAF74B100F5D525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0845401AAF74B000F5D525 = {
+			isa = PBXGroup;
+			children = (
+				1E08454B1AAF74B000F5D525 /* Food Classifier */,
+				1E0845651AAF74B100F5D525 /* Food ClassifierTests */,
+				1E08454A1AAF74B000F5D525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E08454A1AAF74B000F5D525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E0845491AAF74B000F5D525 /* Food Classifier.app */,
+				1E0845621AAF74B100F5D525 /* Food ClassifierTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E08454B1AAF74B000F5D525 /* Food Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				1E0845501AAF74B000F5D525 /* AppDelegate.h */,
+				1E0845511AAF74B000F5D525 /* AppDelegate.m */,
+				1E0845531AAF74B000F5D525 /* ViewController.h */,
+				1E0845541AAF74B000F5D525 /* ViewController.m */,
+				1E0845561AAF74B000F5D525 /* Main.storyboard */,
+				1E0845591AAF74B000F5D525 /* Images.xcassets */,
+				1E08455B1AAF74B000F5D525 /* LaunchScreen.xib */,
+				1E08454C1AAF74B000F5D525 /* Supporting Files */,
+			);
+			path = "Food Classifier";
+			sourceTree = "<group>";
+		};
+		1E08454C1AAF74B000F5D525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E08454D1AAF74B000F5D525 /* Info.plist */,
+				1E08454E1AAF74B000F5D525 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1E0845651AAF74B100F5D525 /* Food ClassifierTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0845681AAF74B100F5D525 /* Food_ClassifierTests.m */,
+				1E0845661AAF74B100F5D525 /* Supporting Files */,
+			);
+			path = "Food ClassifierTests";
+			sourceTree = "<group>";
+		};
+		1E0845661AAF74B100F5D525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E0845671AAF74B100F5D525 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E0845481AAF74B000F5D525 /* Food Classifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E08456C1AAF74B100F5D525 /* Build configuration list for PBXNativeTarget "Food Classifier" */;
+			buildPhases = (
+				1E0845451AAF74B000F5D525 /* Sources */,
+				1E0845461AAF74B000F5D525 /* Frameworks */,
+				1E0845471AAF74B000F5D525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Food Classifier";
+			productName = "Food Classifier";
+			productReference = 1E0845491AAF74B000F5D525 /* Food Classifier.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E0845611AAF74B100F5D525 /* Food ClassifierTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E08456F1AAF74B100F5D525 /* Build configuration list for PBXNativeTarget "Food ClassifierTests" */;
+			buildPhases = (
+				1E08455E1AAF74B100F5D525 /* Sources */,
+				1E08455F1AAF74B100F5D525 /* Frameworks */,
+				1E0845601AAF74B100F5D525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0845641AAF74B100F5D525 /* PBXTargetDependency */,
+			);
+			name = "Food ClassifierTests";
+			productName = "Food ClassifierTests";
+			productReference = 1E0845621AAF74B100F5D525 /* Food ClassifierTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E0845411AAF74B000F5D525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Dato;
+				TargetAttributes = {
+					1E0845481AAF74B000F5D525 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1E0845611AAF74B100F5D525 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1E0845481AAF74B000F5D525;
+					};
+				};
+			};
+			buildConfigurationList = 1E0845441AAF74B000F5D525 /* Build configuration list for PBXProject "Food Classifier" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E0845401AAF74B000F5D525;
+			productRefGroup = 1E08454A1AAF74B000F5D525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E0845481AAF74B000F5D525 /* Food Classifier */,
+				1E0845611AAF74B100F5D525 /* Food ClassifierTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E0845471AAF74B000F5D525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0845581AAF74B000F5D525 /* Main.storyboard in Resources */,
+				1E08455D1AAF74B000F5D525 /* LaunchScreen.xib in Resources */,
+				1E08455A1AAF74B000F5D525 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0845601AAF74B100F5D525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E0845451AAF74B000F5D525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0845551AAF74B000F5D525 /* ViewController.m in Sources */,
+				1E0845521AAF74B000F5D525 /* AppDelegate.m in Sources */,
+				1E08454F1AAF74B000F5D525 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E08455E1AAF74B100F5D525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0845691AAF74B100F5D525 /* Food_ClassifierTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E0845641AAF74B100F5D525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0845481AAF74B000F5D525 /* Food Classifier */;
+			targetProxy = 1E0845631AAF74B100F5D525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E0845561AAF74B000F5D525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E0845571AAF74B000F5D525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E08455B1AAF74B000F5D525 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E08455C1AAF74B000F5D525 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E08456A1AAF74B100F5D525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E08456B1AAF74B100F5D525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E08456D1AAF74B100F5D525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Food Classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1E08456E1AAF74B100F5D525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Food Classifier/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1E0845701AAF74B100F5D525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Food ClassifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Classifier.app/Food Classifier";
+			};
+			name = Debug;
+		};
+		1E0845711AAF74B100F5D525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Food ClassifierTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Classifier.app/Food Classifier";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E0845441AAF74B000F5D525 /* Build configuration list for PBXProject "Food Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E08456A1AAF74B100F5D525 /* Debug */,
+				1E08456B1AAF74B100F5D525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E08456C1AAF74B100F5D525 /* Build configuration list for PBXNativeTarget "Food Classifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E08456D1AAF74B100F5D525 /* Debug */,
+				1E08456E1AAF74B100F5D525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1E08456F1AAF74B100F5D525 /* Build configuration list for PBXNativeTarget "Food ClassifierTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0845701AAF74B100F5D525 /* Debug */,
+				1E0845711AAF74B100F5D525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E0845411AAF74B000F5D525 /* Project object */;
+}
