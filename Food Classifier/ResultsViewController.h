@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ResultsViewController.h
 //  Food Classifier
 //
 //  Created by Nikhil Khanna on 3/10/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface ResultsViewController : UIViewController
+@property UIImage* chosenImage;
+@property UIImage* imageToSend;
 @end
-

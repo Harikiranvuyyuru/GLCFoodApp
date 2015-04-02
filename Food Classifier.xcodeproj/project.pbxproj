@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		1E08454F1AAF74B000F5D525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E08454E1AAF74B000F5D525 /* main.m */; };
 		1E0845521AAF74B000F5D525 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845511AAF74B000F5D525 /* AppDelegate.m */; };
-		1E0845551AAF74B000F5D525 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845541AAF74B000F5D525 /* ViewController.m */; };
 		1E0845581AAF74B000F5D525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0845561AAF74B000F5D525 /* Main.storyboard */; };
 		1E08455A1AAF74B000F5D525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0845591AAF74B000F5D525 /* Images.xcassets */; };
 		1E08455D1AAF74B000F5D525 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E08455B1AAF74B000F5D525 /* LaunchScreen.xib */; };
 		1E0845691AAF74B100F5D525 /* Food_ClassifierTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845681AAF74B100F5D525 /* Food_ClassifierTests.m */; };
+		1E0845741AAF789800F5D525 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845731AAF789800F5D525 /* MainViewController.m */; };
+		1E0845771AAF7DD600F5D525 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0845761AAF7DD600F5D525 /* ResultsViewController.m */; };
+		1EF09EED1AC1DDA80014A78C /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EF09EEC1AC1DDA80014A78C /* FoodDetailViewController.m */; };
+		FCFA9F707D765780708105D3 /* libPods-Food Classifier.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79F2392FFBCE2082338B1FC2 /* libPods-Food Classifier.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,21 @@
 		1E08454E1AAF74B000F5D525 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1E0845501AAF74B000F5D525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1E0845511AAF74B000F5D525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1E0845531AAF74B000F5D525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1E0845541AAF74B000F5D525 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1E0845571AAF74B000F5D525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E0845591AAF74B000F5D525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1E08455C1AAF74B000F5D525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1E0845621AAF74B100F5D525 /* Food ClassifierTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food ClassifierTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0845671AAF74B100F5D525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E0845681AAF74B100F5D525 /* Food_ClassifierTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Food_ClassifierTests.m; sourceTree = "<group>"; };
+		1E0845721AAF789800F5D525 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1E0845731AAF789800F5D525 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1E0845751AAF7DD600F5D525 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		1E0845761AAF7DD600F5D525 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		1EF09EEB1AC1DDA80014A78C /* FoodDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDetailViewController.h; sourceTree = "<group>"; };
+		1EF09EEC1AC1DDA80014A78C /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
+		79F2392FFBCE2082338B1FC2 /* libPods-Food Classifier.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Food Classifier.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70BA91B0A1C74D9902A2D3E /* Pods-Food Classifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Classifier.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Food Classifier/Pods-Food Classifier.debug.xcconfig"; sourceTree = "<group>"; };
+		CEA197430668293E41093762 /* Pods-Food Classifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Food Classifier.release.xcconfig"; path = "Pods/Target Support Files/Pods-Food Classifier/Pods-Food Classifier.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFA9F707D765780708105D3 /* libPods-Food Classifier.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +77,8 @@
 				1E08454B1AAF74B000F5D525 /* Food Classifier */,
 				1E0845651AAF74B100F5D525 /* Food ClassifierTests */,
 				1E08454A1AAF74B000F5D525 /* Products */,
+				9F3DC0E7413E3C6F1550EEE3 /* Pods */,
+				7CA9B8369E304EBA628C3E7E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,8 +96,12 @@
 			children = (
 				1E0845501AAF74B000F5D525 /* AppDelegate.h */,
 				1E0845511AAF74B000F5D525 /* AppDelegate.m */,
-				1E0845531AAF74B000F5D525 /* ViewController.h */,
-				1E0845541AAF74B000F5D525 /* ViewController.m */,
+				1E0845721AAF789800F5D525 /* MainViewController.h */,
+				1E0845731AAF789800F5D525 /* MainViewController.m */,
+				1E0845751AAF7DD600F5D525 /* ResultsViewController.h */,
+				1E0845761AAF7DD600F5D525 /* ResultsViewController.m */,
+				1EF09EEB1AC1DDA80014A78C /* FoodDetailViewController.h */,
+				1EF09EEC1AC1DDA80014A78C /* FoodDetailViewController.m */,
 				1E0845561AAF74B000F5D525 /* Main.storyboard */,
 				1E0845591AAF74B000F5D525 /* Images.xcassets */,
 				1E08455B1AAF74B000F5D525 /* LaunchScreen.xib */,
@@ -119,6 +136,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7CA9B8369E304EBA628C3E7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79F2392FFBCE2082338B1FC2 /* libPods-Food Classifier.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F3DC0E7413E3C6F1550EEE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B70BA91B0A1C74D9902A2D3E /* Pods-Food Classifier.debug.xcconfig */,
+				CEA197430668293E41093762 /* Pods-Food Classifier.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E08456C1AAF74B100F5D525 /* Build configuration list for PBXNativeTarget "Food Classifier" */;
 			buildPhases = (
+				8D7D9A0266BB16FBEBE955CF /* Check Pods Manifest.lock */,
 				1E0845451AAF74B000F5D525 /* Sources */,
 				1E0845461AAF74B000F5D525 /* Frameworks */,
 				1E0845471AAF74B000F5D525 /* Resources */,
+				5D42F96311D189789330005B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -168,6 +204,7 @@
 				TargetAttributes = {
 					1E0845481AAF74B000F5D525 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = FUFG886MT6;
 					};
 					1E0845611AAF74B100F5D525 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -214,14 +251,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D42F96311D189789330005B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Food Classifier/Pods-Food Classifier-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D7D9A0266BB16FBEBE955CF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1E0845451AAF74B000F5D525 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E0845551AAF74B000F5D525 /* ViewController.m in Sources */,
+				1EF09EED1AC1DDA80014A78C /* FoodDetailViewController.m in Sources */,
 				1E0845521AAF74B000F5D525 /* AppDelegate.m in Sources */,
 				1E08454F1AAF74B000F5D525 /* main.m in Sources */,
+				1E0845741AAF789800F5D525 /* MainViewController.m in Sources */,
+				1E0845771AAF7DD600F5D525 /* ResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +413,7 @@
 		};
 		1E08456D1AAF74B100F5D525 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B70BA91B0A1C74D9902A2D3E /* Pods-Food Classifier.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Food Classifier/Info.plist";
@@ -351,6 +424,7 @@
 		};
 		1E08456E1AAF74B100F5D525 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEA197430668293E41093762 /* Pods-Food Classifier.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Food Classifier/Info.plist";
@@ -412,6 +486,7 @@
 				1E08456E1AAF74B100F5D525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1E08456F1AAF74B100F5D525 /* Build configuration list for PBXNativeTarget "Food ClassifierTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +495,7 @@
 				1E0845711AAF74B100F5D525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
